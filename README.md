@@ -10,4 +10,14 @@ the we made changes to the directory or create a new file or delete some.
 
 after making changes to the desired files we will first do is: 
 
-:git 
+:git add -> to add the changes to the files.
+
+:git status -> to check the status of the file.
+
+:git commit -F "filename" -> to commit changes to te file (it is like a register so that we can keep the track of the changes we have made in the working file). it is very useful and easy to make changes. 
+
+: gti commit -m "message for the file we have made changes to so that we can know what we have changed in the file from start to end". 
+
+: git push origin main -> to push the changes to the main repository and save the file in the remote servers of github.
+
+our work is done. 
